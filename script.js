@@ -592,9 +592,17 @@ function setupEventListeners() {
 }
 
 function convert(name, map) {
-  return name.toLowerCase().split("").map(ch => map[ch] || ch).join("");
+  return name.split("").map(ch => {
+    // 1. पहले exact character check करें (जैसा user ने लिखा)
+    if (map[ch]) {
+      return map[ch];
+    }
+    // 2. अगर नहीं मिला, तो original character ही return करें
+    return ch;
+  }).join("");
 }
 
+// ... next code (generateStyles function वैसा ही रहेगा) ...
 function generateStyles() {
   const name = document.getElementById('nameInput').value.trim();
   const result = document.getElementById('result');
