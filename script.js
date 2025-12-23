@@ -44,8 +44,7 @@ const stylesByCategory = {
         k: "ᴋ", l: "ℓ", m: "ᴍ", n: "𝛈", o: "Ꭷ", p: "ᴘ", q: "𝛗", r: "ʀ",
         s: "ꜱ", t: "ᴛ", u: "ꪽ", v: "ᴠ", w: "ᴡ", x: "x", y: "ʏ", z: "ᴢ"
       }
-    },
-      
+    },    
   {
     name: "love_style_5",
     prefix: "˗ˏˋ🐼ﮩ٨ـ",
@@ -55,8 +54,7 @@ const stylesByCategory = {
       k: "Ꮶ", l: "Ꮮ", m: "ᗰ", n: "ᑎ", o: "ᗝ", p: "ᑭ", q: "ᑫ", r: "ᖇ", s: "ᔕ", t: "ᖶ",
       u: "ᑌ", v: "ᐯ", w: "ᗯ", x: "᙭", y: "Ꭹ", z: "ᘔ"
     }
-  },
-  
+  }, 
   {
     name: "love_style_6",
     prefix: "˗ˏˋ🐾𐙚",
@@ -67,7 +65,6 @@ const stylesByCategory = {
       u: "Ц", v: "Ѵ", w: "Ш", x: "X", y: "Ψ", z: "Ẕ"
     }
   },
-  
   {
     name: "love_style_7",
     prefix: "𐙚✨˚",
@@ -77,8 +74,7 @@ const stylesByCategory = {
       k: "k̷", l: "l̷", m: "m̷", n: "n̷", o: "o̷", p: "p̷", q: "q̷", r: "r̷", s: "s̷", t: "t̷",
       u: "u̷", v: "v̷", w: "w̷", x: "x̷", y: "y̷", z: "z̷"
     }
-  },
-  
+  }, 
   {
     name: "love_style_8",
     prefix: "𓆜⋆˚࿔⊹ ࣪",
@@ -88,8 +84,7 @@ const stylesByCategory = {
       k: "Ꮶ", l: "Ꮮ", m: "ᗰ", n: "ᑎ", o: "ᗝ", p: "ᑭ", q: "ᑫ", r: "ᖇ", s: "ᔕ", t: "ᖶ",
       u: "ᑌ", v: "ᐯ", w: "ᗯ", x: "᙭", y: "Ꭹ", z: "ᘔ"
     }
-  },
-  
+  }, 
   {
     name: "love_style_9",
     prefix: "̤̮ 🅝 ̤̮🅐 ̤̮🅜 ̤̮🅔 ",
@@ -99,8 +94,7 @@ const stylesByCategory = {
       k: "🅚", l: "🅛", m: "🅜", n: "🅝", o: "🅞", p: "🅟", q: "🅠", r: "🅡", s: "🅢", t: "🅣",
       u: "🅤", v: "🅥", w: "🅦", x: "🅧", y: "🅨", z: "🅩"
     }
-  },
-    
+  },    
     {
       name: "love_style_2",
       prefix: "❤️ ",
