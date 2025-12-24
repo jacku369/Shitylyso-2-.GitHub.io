@@ -1400,10 +1400,21 @@ function setupEventListeners() {
 
 function convert(name, map) {
   return name.split("").map(ch => {
-    // First try exact match (preserves case)
+    // First try exact match (case sensitive)
     if (map[ch] !== undefined) {
       return map[ch];
     }
+    
+    // If no exact match, try lowercase version
+    const lowerChar = ch.toLowerCase();
+    if (map[lowerChar] !== undefined) {
+      return map[lowerChar];
+    }
+    
+    // If still no match, return original character
+    return ch;
+  }).join("");
+}
     
     // If no exact match, try lowercase
     const lowerChar = ch.toLowerCase();
