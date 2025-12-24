@@ -1309,7 +1309,21 @@ function setupEventListeners() {
 }
 
 function convert(name, map) {
-  return name.toLowerCase().split("").map(ch => map[ch] || ch).join("");
+  return name.split("").map(ch => {
+    // First try exact match (preserves case)
+    if (map[ch] !== undefined) {
+      return map[ch];
+    }
+    
+    // If no exact match, try lowercase
+    const lowerChar = ch.toLowerCase();
+    if (map[lowerChar] !== undefined) {
+      return map[lowerChar];
+    }
+    
+    // If still no match, return original
+    return ch;
+  }).join("");
 }
 
 // ... next code (generateStyles function वैसा ही रहेगा) ...
